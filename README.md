@@ -71,7 +71,7 @@ The following principles are behind the architecture of DeGit:
   * Issues, PRs, and comments have hash codes instead of sequential IDs
   * Each story is RSA-signed by its author
   * Each node decides for itself which repositories to host
-  * Give-and-take protocol is used: "the more you host for me, the more I host for you"
+  * Give-and-take principel is in place: "The more you host for me, the more I host for you"
   * Commits are announced to neighbour nodes, which they can `git pull` later if they want
   * Conflicts are resolved through DeGit Consensus Algorithm (see below)
   * Neighbours-discovery protocol is similar to the one used in [Zold](https://blog.zold.io/2018/12/28/nodes-discovery-protocol.html)
@@ -88,7 +88,7 @@ It is highly recommended to avoid making parallel commits to the
 same branch, since it may lead to inability to merge and abandonded
 (or lost) branches.
 
-Here is how the data is propagated when you interact with DeGit on your laptop:
+Here is how the data is propagated when you interact with Git on your laptop:
 
   * You `git commit` your changes to your branches
   * You do `git push` to your `localhost`
@@ -98,7 +98,7 @@ Here is how the data is propagated when you interact with DeGit on your laptop:
   * They resolve conflicts according to the Consensus Algorithm (MAX)
   * You get "OK" if all conflicts are resolved in your favor, "ERROR" otherwise
 
-This is what happens on the server:
+This is what happens on a node:
 
   * New commits arrive from the client
   * We `git merge` them to the existing repository
