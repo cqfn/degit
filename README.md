@@ -29,6 +29,7 @@ created before (if you know anything else, please submit a pull request):
   * [git-ssb](https://scuttlebot.io/apis/community/git-ssb.html)
   * [git-dit](https://github.com/neithernut/git-dit)
   * [pando](https://github.com/pandonetwork/pando)
+  * [mango](https://github.com/axic/mango) (abandoned in 2016)
   * [ZeroNet](https://zeronet.io/) (not exactly Git, but relevant)
 
 Even though [GitHub](https://github.com),
