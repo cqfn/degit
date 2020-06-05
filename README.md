@@ -1,4 +1,4 @@
-<img src="/logo.svg" width="64px"/>
+<img src="/logo.svg" width="92px"/>
 
 DeGit is a decentralized Git project hosting and maintenance platform.
 You can join by starting a node and creating a project, using
