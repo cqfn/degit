@@ -51,3 +51,17 @@ with the following features:
   * Not owned by anyone,
   * Moderated by the board of deputies.
 
+## How It Works?
+
+The following principles are behind the architecture of DeGit:
+
+  * A repository is a combination of 1) Git files and 2) some stories
+  * A story is an issue, a comment, a pull request, a star, a wiki page, etc.
+  * Each story is RSA-signed by its author
+  * Each node decides for itself which repositories to host
+  * Give-and-take protocol is used: "the more you host for me, the more I host for you"
+  * Nodes communicate through HTTP RESTful interfaces
+
+## How to Contribute?
+
+Just give us a star and wait. We'll update this page soon.
