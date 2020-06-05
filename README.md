@@ -6,7 +6,7 @@ your web browser pointing at `127.0.0.1`, just like you
 work with GitHub. There will is no central point of failure,
 since the network of nodes is run by anonymous volunteers.
 
-To start it simply do (it uses your `.ssh/id_rsa` for authentication):
+To start, simply do (it uses your `.ssh/id_rsa` for authentication):
 
 ```bash
 $ gem install degit
@@ -47,7 +47,7 @@ with the following features:
 
   * Pull requests, stars, and followers,
   * GitHub-like web user interface,
-  * It is entirely free for public and private repositories,
-  * The data is not owned by anyone,
-  * Misconduct is moderated by the board of deputies.
+  * Entirely free for public and private repositories,
+  * Not owned by anyone,
+  * Moderated by the board of deputies.
 
