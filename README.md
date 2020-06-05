@@ -62,7 +62,20 @@ The following principles are behind the architecture of DeGit:
   * Each story is RSA-signed by its author
   * Each node decides for itself which repositories to host
   * Give-and-take protocol is used: "the more you host for me, the more I host for you"
+  * Commits are announced to neighbour nodes, which pull them if they like
+  * Conflicts are resolved through DeGit Consensus Algorithm
   * Nodes communicate through HTTP RESTful interfaces
+
+DeGit Consensus Algorithm (proof-of-availability):
+
+  * A branch dominates during merge if the providing node is more available
+  * The availability of neighbours is subjectively measured by each node
+  * Commits from "less avaiable" branches are ignored during merge
+  * The availability of itself is always zero
+
+It is highly recommended to avoid making parallel commits to the
+same branch, since it may lead to inability to merge and abandonded
+(or lost) branches.
 
 ## How to Contribute?
 
