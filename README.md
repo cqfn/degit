@@ -68,10 +68,10 @@ The following principles are behind the architecture of DeGit:
 
 DeGit Consensus Algorithm (proof-of-availability):
 
-  * A branch dominates during merge if the providing node is more available
-  * The availability of neighbours is subjectively measured by each node
-  * Commits from "less available" branches are ignored during merge
-  * The availability of itself is always zero
+  * A branch dominates during [merge](https://git-scm.com/docs/git-merge) if the providing node is more _available_
+  * The _availability_ of neighbours is subjectively judged by each node
+  * [Commits](https://git-scm.com/docs/git-commit) from less _available_ branches are ignored during merge
+  * The _availability_ of itself is always zero
 
 It is highly recommended to avoid making parallel commits to the
 same branch, since it may lead to inability to merge and abandonded
