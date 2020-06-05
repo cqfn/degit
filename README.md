@@ -25,6 +25,7 @@ created before (if you know anything else, please submit a pull request):
   * [GitChain](http://gitchain.org/) (abandoned in 2014)
   * [GitTorrent](https://github.com/cjb/GitTorrent) (abandoned in 2015)
   * [Drepo](https://www.drepo.io/) (abandoned in 2018)
+  * [git-issue](https://github.com/dspinellis/git-issue)
   * [git-ssb](https://scuttlebot.io/apis/community/git-ssb.html)
   * [git-dit](https://github.com/neithernut/git-dit)
   * [ZeroNet](https://zeronet.io/) (not exactly Git, but relevant)
