@@ -58,6 +58,7 @@ The following principles are behind the architecture of DeGit:
   * An author is the owner of a node, authenticated by his/her RSA key
   * A repository is a combination of 1) Git files and 2) immutable stories
   * A story is an issue, a comment, a pull request, a star, a wiki page, etc.
+  * Issues, PRs, and comments have hash codes instead of sequential IDs
   * Each story is RSA-signed by its author
   * Each node decides for itself which repositories to host
   * Give-and-take protocol is used: "the more you host for me, the more I host for you"
