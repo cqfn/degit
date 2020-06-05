@@ -1,9 +1,9 @@
 <img src="/logo.svg" width="92px"/>
 
-DeGit is a decentralized Git project hosting and maintenance platform.
-You can join by starting a node and creating a project, using
-your web browser pointing at `127.0.0.1`, just like you
-work with GitHub. There will is no central point of failure,
+DeGit is a decentralized Git projects hosting platform.
+You can join by starting a node and pointing your browser
+at `127.0.0.1`. Then, just work with it as if it was GitHub.
+There is no central point of failure in DeGit,
 since the network of nodes is run by anonymous volunteers.
 
 To start, simply do (it uses your `.ssh/id_rsa` for authentication):
@@ -62,20 +62,39 @@ The following principles are behind the architecture of DeGit:
   * Each story is RSA-signed by its author
   * Each node decides for itself which repositories to host
   * Give-and-take protocol is used: "the more you host for me, the more I host for you"
-  * Commits are announced to neighbour nodes, which pull them if they like
-  * Conflicts are resolved through DeGit Consensus Algorithm
+  * Commits are announced to neighbour nodes, which they can `git pull` later if they want
+  * Conflicts are resolved through DeGit Consensus Algorithm (see below)
+  * Neighbours-discovery protocol is similar to the one used in [Zold](https://blog.zold.io/2018/12/28/nodes-discovery-protocol.html)
   * Nodes communicate through HTTP RESTful interfaces
 
-DeGit Consensus Algorithm (proof-of-availability):
+DeGit Consensus Algorithm based on **Proof-of-Availability** (PoA):
 
   * A branch dominates during [merge](https://git-scm.com/docs/git-merge) if the providing node is more _available_
   * The _availability_ of neighbours is subjectively judged by each node
   * [Commits](https://git-scm.com/docs/git-commit) from less _available_ branches are ignored during merge
-  * The _availability_ of itself is always zero
+  * The _availability_ of itself is configurable (either MAX or MIN)
 
 It is highly recommended to avoid making parallel commits to the
 same branch, since it may lead to inability to merge and abandonded
 (or lost) branches.
+
+Here is how the data is propagated when you interact with DeGit on your laptop:
+
+  * You `git commit` your changes to your branches
+  * You do `git push` to your `localhost`
+  * Built-in post-commit [hook](https://git-scm.com/docs/githooks) pushes commits to your neighbour nodes
+  * Some neighbours break the connection and ignore the data
+  * Others attempt to merge the coming data with their local repositories
+  * They resolve conflicts according to the Consensus Algorithm (MAX)
+  * You get "OK" if all conflicts are resolved in your favor, "ERROR" otherwise
+
+This is what happens on the server:
+
+  * New commits arrive from the client
+  * We `git merge` them to the existing repository
+  * Conflicts are resolved according to the Consensus Algorithm (MAX)
+  * We `git pull` all neighbours
+  * Conflicts are resolved according to the Consensus Algorithm (MIN)
 
 ## How to Contribute?
 
