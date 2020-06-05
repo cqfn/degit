@@ -1,3 +1,5 @@
+<img src="/logo.svg" width="64px"/>
+
 DeGit is a decentralized Git project hosting and maintenance platform.
 You can join by starting a node and creating a project, using
 your web browser pointing at `127.0.0.1`, just like you
