@@ -70,7 +70,7 @@ DeGit Consensus Algorithm (proof-of-availability):
 
   * A branch dominates during merge if the providing node is more available
   * The availability of neighbours is subjectively measured by each node
-  * Commits from "less avaiable" branches are ignored during merge
+  * Commits from "less available" branches are ignored during merge
   * The availability of itself is always zero
 
 It is highly recommended to avoid making parallel commits to the
