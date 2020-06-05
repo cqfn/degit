@@ -19,7 +19,7 @@ the system, which is very similar to GitHub.
 ## Motivation and Related Works
 
 We are not the first who are thinking about a decentralized solution
-for Git repositories hosting and managing. There were a few similar products
+for hosting and managing of Git repositories. There were a few similar products
 created before (if you know anything else, please submit a pull request):
 
   * [GitChain](http://gitchain.org/)
