@@ -25,11 +25,12 @@ created before (if you know anything else, please submit a pull request):
   * [GitChain](http://gitchain.org/) (abandoned in 2014)
   * [GitTorrent](https://github.com/cjb/GitTorrent) (abandoned in 2015)
   * [Drepo](https://www.drepo.io/) (abandoned in 2018)
+  * [Radicle](https://github.com/radicle-dev) (read [this](https://outlierventures.io/wp-content/uploads/2019/11/Radicle-Diffusion-2019-1.pdf))
   * [git-issue](https://github.com/dspinellis/git-issue)
   * [git-ssb](https://scuttlebot.io/apis/community/git-ssb.html)
   * [git-dit](https://github.com/neithernut/git-dit)
   * [pando](https://github.com/pandonetwork/pando)
-  * [mango](https://github.com/axic/mango) (abandoned in 2016)
+  * [mango](https://github.com/axic/mango) (abandoned in 2016, watch [this](https://www.youtube.com/watch?v=tU7_Yf45okc))
   * [ZeroNet](https://zeronet.io/) (not exactly Git, but relevant)
 
 Even though [GitHub](https://github.com),
