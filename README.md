@@ -1,10 +1,10 @@
 <img src="/logo.svg" width="92px"/>
 
-DeGit is a decentralized Git projects hosting platform.
+DeGit is a decentralized [Git](https://git-scm.com/) projects hosting platform.
 You can join by starting a node and pointing your browser
 at `127.0.0.1`. Then, just work with it as if it was GitHub.
-There is no central point of failure in DeGit,
-since the network of nodes is run by anonymous volunteers.
+There is no central point of failure,
+since the network of DeGit nodes is run by anonymous volunteers.
 
 To start, simply do (it uses your `.ssh/id_rsa` for authentication):
 
@@ -14,7 +14,8 @@ $ degit run
 ```
 
 In a few seconds you can open `https://localhost:8080` and enjoy
-the system, which is very similar to GitHub.
+the system, which is very similar to GitHub. You can, of course, use
+local Git repo, which is on-fly synchronized with other DeGit nodes.
 
 ## Motivation and Related Works
 
