@@ -71,7 +71,7 @@ The following principles are behind the architecture of DeGit:
   * Issues, PRs, and comments have hash codes instead of sequential IDs
   * Each story is RSA-signed by its author
   * Each node decides for itself which repositories to host
-  * Give-and-take principel is in place: "The more you host for me, the more I host for you"
+  * Give-and-take principle is in place: "The more you host for me, the more I host for you"
   * Commits are announced to neighbour nodes, which they can `git pull` later if they want
   * Conflicts are resolved through DeGit Consensus Algorithm (see below)
   * Neighbours-discovery protocol is similar to the one used in [Zold](https://blog.zold.io/2018/12/28/nodes-discovery-protocol.html)
