@@ -66,10 +66,8 @@ with the following features:
 The following principles are behind the architecture of DeGit:
 
   * An author is the owner of a node, authenticated by his/her [RSA key](https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29)
-  * A repository is a combination of 1) Git files and 2) immutable stories
-  * A story is an issue, a comment, a pull request, a star, a wiki page, etc.
+  * Issues, PRs, comments, stars, etc. are regular files in `.degit` directory in `master`
   * Issues, PRs, and comments have hash codes instead of sequential IDs
-  * Each story is RSA-signed by its author
   * Each node decides for itself which repositories to host
   * Give-and-take principle is in place: "The more you host for me, the more I host for you"
   * Commits are announced to neighbour nodes, which they can `git pull` later if they want
@@ -84,8 +82,9 @@ DeGit Consensus Algorithm based on **Proof-of-Availability** (PoA):
   * [Commits](https://git-scm.com/docs/git-commit) from less _available_ branches are ignored during merge
   * The _availability_ of itself is configurable (either MAX or MIN)
 
-It is highly recommended to avoid making parallel commits to the
-same branch, since it may lead to inability to merge and abandonded
+It is highly recommended to avoid pushing to the
+same branch from a few nodes,
+since it may lead to inability to merge and abandonded
 (or lost) branches.
 
 Here is how the data is propagated when you interact with Git on your laptop:
