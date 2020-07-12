@@ -65,7 +65,7 @@ with the following features:
 
 The following principles are behind the architecture of DeGit:
 
-  * An author is the owner of a node, authenticated by his/her [RSA key](https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29)
+  * Ownership of a repo is defined by public [RSA](https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29) keys in `.degit` directory
   * Issues, PRs, comments, stars, etc. are regular files in `.degit` directory in `master`
   * Issues, PRs, and comments have hash codes instead of sequential IDs
   * Each node decides for itself which repositories to host
@@ -88,7 +88,7 @@ Here is how the data is propagated when you interact with Git on your laptop
   * On success, a built-in post-commit [hook](https://git-scm.com/docs/githooks) proceeds:
   * It `git fetch` from the first neighbour with the highest availability
   * It `git merge` if possible and all commits are signed correctly
-  * It `git push` to the neighbour
+  * It `git push` back to the neighbour
 
 It is highly recommended to avoid pushing to the
 same branch from a few nodes,
