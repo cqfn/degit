@@ -100,8 +100,16 @@ since it may lead to inability to merge and abandonded
 
 ### Authorization and Authentication
 
-A repository has a list of files in `.degit/authors` directory. Each file
+A repository has a list of files in `.degit/permissions` directory. Each file
 starts with a public RSA key and lists user IDs, permissions, etc.
+
+On each `git push` post-commit hook goes through the list of added
+commits and verifies permissions of each user. If any rule from
+`.degit/permissions` is not respected, the entire `push` operation is rejected.
+
+It is recommended to have at least two users with write access to the `master`
+branch, in order to avoid losing access to the repo when
+private RSA key is lost.
 
 ### Incentives
 
