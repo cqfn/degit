@@ -130,9 +130,11 @@ expected to contribute large computational or storage resources to the system
 
 ### Anti-Spam
 
-Vandalism is possible through new issues and new comments: they may be
-submitted in large amounts. In order to fight against this users may use
-"smart contracts" to be executed on each post-commit hook to check
+[Vandalism](https://en.wikipedia.org/wiki/Vandalism)
+is possible through new issues and comments: they may be
+submitted in large amounts. In order to fight against this, users may use
+scripts (a concept very close to [smart contracts](https://en.wikipedia.org/wiki/Smart_contract))
+to be executed on each post-commit hook to check
 the validity of data submitted to `.degit`.
 
 ## How to Contribute?
