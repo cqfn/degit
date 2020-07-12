@@ -79,7 +79,7 @@ The following principles are behind the architecture of DeGit:
 "Availability" is a non-negative integer assigned by a node to each of its neighbours.
 The number goes up on every successful interaction with the neighbour. The
 number goes double-down on each network failure or any other
-not-logical error.
+non-logical error.
 
 Here is how the data is propagated when you interact with Git on your laptop
 (the same happens automatically behind the scene if you use UI in the browser):
