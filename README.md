@@ -57,9 +57,11 @@ with the following features:
 
   * Pull requests, stars, and followers,
   * GitHub-like web user interface,
-  * Entirely free for public and private repositories,
+  * Entirely free for everybody,
   * Not owned by anyone,
   * Moderated by the board of deputies.
+
+DeGit doesn't support private repositories, only public ones.
 
 ## How It Works?
 
@@ -95,6 +97,11 @@ It is highly recommended to avoid pushing to the
 same branch from a few nodes,
 since it may lead to inability to merge and abandonded
 (or lost) branches.
+
+### Authorization and Authentication
+
+A repository has a list of files in `.degit/authors` directory. Each file
+starts with a public RSA key and lists user IDs, permissions, etc.
 
 ### Incentives
 
