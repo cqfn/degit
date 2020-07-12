@@ -96,6 +96,21 @@ same branch from a few nodes,
 since it may lead to inability to merge and abandonded
 (or lost) branches.
 
+### Incentives
+
+Unlike Blockchain, a full duplication of all database in all nodes is not
+required for DeGit. Instead, if a few nodes have the data of a repository,
+this may be enough for the majority of cases. Thus, each node tries to
+host a limited number of repositories, according to the disc space available.
+
+Also, each node maintains a list of repositories seen and addresses of their
+hosting nodes. When a `git fetch` request arrives for a repository that
+the node doesn't have, it returns an error and a suggested list of nodes
+to ask for this repo.
+
+Thus, no monetary incentives are provided to node owners, but they are not
+required to contribute large computational or storage resources to the system.
+
 ## How to Contribute?
 
 Just give us a star and wait. We'll update this page soon.
