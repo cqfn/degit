@@ -75,35 +75,46 @@ The following principles are behind the architecture of DeGit:
   * Neighbours-discovery protocol is similar to the one used in [Zold](https://blog.zold.io/2018/12/28/nodes-discovery-protocol.html)
   * Nodes communicate through HTTP RESTful interfaces
 
-DeGit Consensus Algorithm based on **Proof-of-Availability** (PoA):
+### Proof of Availability
+
+"Availability" is a positive number assigned by a node to each of its neighbours.
+The number goes up on every successful interaction with the neighbour. The
+number goes double-down on each failure due to network failure or any other
+not-logical error.
+
+DeGit Consensus Algorithm based on PoA:
 
   * A branch dominates during [merge](https://git-scm.com/docs/git-merge) if the providing node is more _available_
   * The _availability_ of neighbours is subjectively judged by each node
   * [Commits](https://git-scm.com/docs/git-commit) from less _available_ branches are ignored during merge
   * The _availability_ of itself is configurable (either MAX or MIN)
 
-It is highly recommended to avoid pushing to the
-same branch from a few nodes,
-since it may lead to inability to merge and abandonded
-(or lost) branches.
+### Data Flow Explained
 
-Here is how the data is propagated when you interact with Git on your laptop:
+<img src="http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/yegor256/degit/master/uml/data-flow.uml"/>
+
+Here is how the data is propagated when you interact with Git on your laptop
+(the same happens automatically behind the scene if you use UI in the browser):
 
   * You `git commit` your changes to your branches
   * You do `git push` to your `localhost`
-  * Built-in post-commit [hook](https://git-scm.com/docs/githooks) pushes commits to your neighbour nodes
+  * On success, a built-in post-commit [hook](https://git-scm.com/docs/githooks) pushes them to your neighbour nodes
   * Some neighbours break the connection and ignore the data
   * Others attempt to merge the coming data with their local repositories
   * They resolve conflicts according to the Consensus Algorithm (MAX)
-  * You get "OK" if all conflicts are resolved in your favor, "ERROR" otherwise
 
 This is what happens on a node:
 
-  * New commits arrive from the client
+  * New commits arrive from another node (of the client)
   * We `git merge` them to the existing repository
   * Conflicts are resolved according to the Consensus Algorithm (MAX)
   * We `git pull` all neighbours
   * Conflicts are resolved according to the Consensus Algorithm (MIN)
+
+It is highly recommended to avoid pushing to the
+same branch from a few nodes,
+since it may lead to inability to merge and abandonded
+(or lost) branches.
 
 ## How to Contribute?
 
