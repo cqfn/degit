@@ -126,6 +126,13 @@ to ask for this repo.
 Thus, no monetary incentives are provided to node owners, but they are not
 required to contribute large computational or storage resources to the system.
 
+### Anti-Spam
+
+Vandalism is possible through new issues and new comments: they may be
+submitted in large amounts. In order to fight against this users may use
+"smart contracts" to be executed on each post-commit hook to check
+the validity of data submitted to `.degit`.
+
 ## How to Contribute?
 
 Just give us a star and wait. We'll update this page soon.
