@@ -65,8 +65,9 @@ with the following features:
 
 The following principles are behind the architecture of DeGit:
 
-  * Ownership of a repo is defined by public [RSA](https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29) keys in `.degit` directory
-  * Issues, PRs, comments, stars, etc. are regular files in `.degit` directory in `master`
+  * `.degit` directory in `master` branch is used to keep meta information
+  * Ownership of a repo is defined by public [RSA](https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29) keys in `.degit`
+  * Issues, PRs, comments, stars, etc. are regular files in `.degit`
   * Issues, PRs, and comments have hash codes instead of sequential IDs
   * Each node decides for itself which repositories to host
   * Give-and-take principle is in place: "The more you host for me, the more I host for you"
