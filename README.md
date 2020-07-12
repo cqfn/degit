@@ -113,7 +113,8 @@ private RSA key is lost.
 
 ### Incentives
 
-Unlike Blockchain, a full duplication of all database in all nodes is not
+Unlike [Blockchain](https://en.wikipedia.org/wiki/Blockchain),
+a full duplication of all database in all nodes is not
 required for DeGit. Instead, if a few nodes have the data of a repository,
 this may be enough for the majority of cases. Thus, each node tries to
 host a limited number of repositories, according to the disc space available.
@@ -125,7 +126,7 @@ to ask for this repo.
 
 Thus, no monetary incentives are provided to node owners, but they are not
 expected to contribute large computational or storage resources to the system
-(like it happens in Bitcoin, for example).
+(like it happens in [Bitcoin](https://en.wikipedia.org/wiki/Bitcoin), for example).
 
 ### Anti-Spam
 
