@@ -70,46 +70,25 @@ The following principles are behind the architecture of DeGit:
   * Issues, PRs, and comments have hash codes instead of sequential IDs
   * Each node decides for itself which repositories to host
   * Give-and-take principle is in place: "The more you host for me, the more I host for you"
-  * Commits are announced to neighbour nodes, which they can `git pull` later if they want
-  * Conflicts are resolved through DeGit Consensus Algorithm (see below)
+  * Conflicts are resolved through proof-of-availability (PoA) consensus
   * Neighbours-discovery protocol is similar to the one used in [Zold](https://blog.zold.io/2018/12/28/nodes-discovery-protocol.html)
-  * Nodes communicate through HTTP RESTful interfaces
-
-### Proof of Availability
-
-"Availability" is a positive number assigned by a node to each of its neighbours.
-The number goes up on every successful interaction with the neighbour. The
-number goes double-down on each failure due to network failure or any other
-not-logical error.
-
-DeGit Consensus Algorithm based on PoA:
-
-  * A branch dominates during [merge](https://git-scm.com/docs/git-merge) if the providing node is more _available_
-  * The _availability_ of neighbours is subjectively judged by each node
-  * [Commits](https://git-scm.com/docs/git-commit) from less _available_ branches are ignored during merge
-  * The _availability_ of itself is configurable (either MAX or MIN)
 
 ### Data Flow Explained
 
-<img src="http://www.plantuml.com/plantuml/proxy?src=https://raw.github.com/yegor256/degit/master/uml/data-flow.uml"/>
+"Availability" is a non-negative integer assigned by a node to each of its neighbours.
+The number goes up on every successful interaction with the neighbour. The
+number goes double-down on each network failure or any other
+not-logical error.
 
 Here is how the data is propagated when you interact with Git on your laptop
 (the same happens automatically behind the scene if you use UI in the browser):
 
   * You `git commit` your changes to your branches
   * You do `git push` to your `localhost`
-  * On success, a built-in post-commit [hook](https://git-scm.com/docs/githooks) pushes them to your neighbour nodes
-  * Some neighbours break the connection and ignore the data
-  * Others attempt to merge the coming data with their local repositories
-  * They resolve conflicts according to the Consensus Algorithm (MAX)
-
-This is what happens on a node:
-
-  * New commits arrive from another node (of the client)
-  * We `git merge` them to the existing repository
-  * Conflicts are resolved according to the Consensus Algorithm (MAX)
-  * We `git pull` all neighbours
-  * Conflicts are resolved according to the Consensus Algorithm (MIN)
+  * On success, a built-in post-commit [hook](https://git-scm.com/docs/githooks) proceeds:
+  * It `git fetch` from the first neighbour with the highest availability
+  * It `git merge` if possible and all commits are signed correctly
+  * It `git push` to the neighbour
 
 It is highly recommended to avoid pushing to the
 same branch from a few nodes,
