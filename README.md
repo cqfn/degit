@@ -118,13 +118,14 @@ required for DeGit. Instead, if a few nodes have the data of a repository,
 this may be enough for the majority of cases. Thus, each node tries to
 host a limited number of repositories, according to the disc space available.
 
-Also, each node maintains a list of repositories seen and addresses of their
-hosting nodes. When a `git fetch` request arrives for a repository that
+Also, each node maintains a list of repositories seen along with the addresses of their
+hosting nodes. When a `git fetch` arrives for a repository that
 the node doesn't have, it returns an error and a suggested list of nodes
 to ask for this repo.
 
 Thus, no monetary incentives are provided to node owners, but they are not
-required to contribute large computational or storage resources to the system.
+expected to contribute large computational or storage resources to the system
+(like it happens in Bitcoin, for example).
 
 ### Anti-Spam
 
