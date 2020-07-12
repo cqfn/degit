@@ -55,10 +55,12 @@ It seems that the need for a decentralized solution is obvious.
 We believe that the community would enjoy having a platform
 with the following features:
 
-  * Pull requests, stars, and followers,
-  * GitHub-like web user interface,
-  * Entirely free for everybody,
-  * Not owned by anyone,
+  * [Pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests);
+  * Issues and milestones;
+  * stars and followers;
+  * GitHub-like web user interface;
+  * Entirely free for everybody;
+  * Not owned by anyone;
   * Moderated by the board of deputies.
 
 DeGit doesn't support private repositories, only public ones.
