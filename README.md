@@ -57,7 +57,7 @@ with the following features:
 
   * [Pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests);
   * Issues and milestones;
-  * stars and followers;
+  * Stars and followers;
   * GitHub-like web user interface;
   * Entirely free for everybody;
   * Not owned by anyone;
