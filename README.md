@@ -139,6 +139,10 @@ scripts (a concept very close to [smart contracts](https://en.wikipedia.org/wiki
 to be executed on each post-commit hook to check
 the validity of data submitted to `.degit`.
 
+### Moderation
+
+To be continued...
+
 ## How to Contribute?
 
 Just give us a star and wait. We'll update this page soon.
