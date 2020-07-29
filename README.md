@@ -80,7 +80,7 @@ The following principles are behind the architecture of DeGit:
 
 Here is how it looks:
 
-<img src="/diagram.svg" height="300px"/>
+<img src="/diagram.svg" height="450px"/>
 
 Two elements are part of the DeGit project: Dashboard and Hooks.
 
