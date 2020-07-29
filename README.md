@@ -78,6 +78,12 @@ The following principles are behind the architecture of DeGit:
   * Conflicts are resolved through proof-of-availability (PoA) consensus
   * Neighbours-discovery protocol is similar to the one used in [Zold](https://blog.zold.io/2018/12/28/nodes-discovery-protocol.html)
 
+Here is how it looks:
+
+<img src="/diagram.svg" height="300px"/>
+
+Two elements are part of the DeGit project: Dashboard and Hooks.
+
 ### Data Flow Explained
 
 "Availability" is a non-negative integer assigned by a node to each of its neighbours.
