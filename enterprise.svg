@@ -4,7 +4,7 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-5" transform="translate(1.000000, 1.000000)">
             <g id="Group" transform="translate(159.000000, 410.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="62" height="42"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="62" height="42"></rect>
                 <text id="AM" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="13" y="22">AM</tspan>
                 </text>
@@ -73,7 +73,7 @@
                 </text>
             </g>
             <g id="Group" transform="translate(337.000000, 410.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="62" height="42"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="62" height="42"></rect>
                 <text id="AM" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="13" y="22">AM</tspan>
                 </text>
@@ -85,7 +85,7 @@
                 </text>
             </g>
             <g id="Group" transform="translate(526.000000, 410.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="62" height="42"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="62" height="42"></rect>
                 <text id="AM" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="13" y="22">AM</tspan>
                 </text>
@@ -102,6 +102,15 @@
             <text id="https" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
                 <tspan x="423.15625" y="161">https</tspan>
             </text>
+            <text id="https" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="476.15625" y="273">https</tspan>
+            </text>
+            <text id="https" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="408.15625" y="281">https</tspan>
+            </text>
+            <text id="https" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="316.15625" y="266">https</tspan>
+            </text>
             <text id="ssh" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
                 <tspan x="390.050781" y="501">ssh</tspan>
             </text>
@@ -113,37 +122,37 @@
                 <tspan x="40.609375" y="632">w/Users</tspan>
             </text>
             <g id="Group" transform="translate(134.000000, 307.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="139" height="48"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="48"></rect>
                 <text id="DeGit-CLI" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="16.8183594" y="22">DeGit CLI</tspan>
                 </text>
             </g>
             <g id="Group" transform="translate(159.000000, 361.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="139" height="42"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="42"></rect>
                 <text id="Dashboard" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="10.7949219" y="22">Dashboard</tspan>
                 </text>
             </g>
             <g id="Group" transform="translate(312.000000, 307.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="139" height="48"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="48"></rect>
                 <text id="DeGit-CLI" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="16.8183594" y="22">DeGit CLI</tspan>
                 </text>
             </g>
             <g id="Group" transform="translate(337.000000, 361.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="139" height="42"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="42"></rect>
                 <text id="Dashboard" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="10.7949219" y="22">Dashboard</tspan>
                 </text>
             </g>
             <g id="Group" transform="translate(501.000000, 307.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="139" height="48"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="48"></rect>
                 <text id="DeGit-CLI" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="16.8183594" y="22">DeGit CLI</tspan>
                 </text>
             </g>
             <g id="Group" transform="translate(526.000000, 361.000000)">
-                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="139" height="42"></rect>
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="42"></rect>
                 <text id="Dashboard" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
                     <tspan x="10.7949219" y="22">Dashboard</tspan>
                 </text>
@@ -171,11 +180,11 @@
                 <tspan x="463.492188" y="821">Git cluster</tspan>
             </text>
             <text id="Kubernetes-cluster" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="543.296875" y="290">Kubernetes cluster</tspan>
+                <tspan x="543.296875" y="293">Kubernetes cluster</tspan>
             </text>
             <path d="M159,518 L536,518 L536,807 L159,807 L159,518 Z" id="Rectangle" stroke="#979797" stroke-width="2" stroke-dasharray="10"></path>
             <path d="M159,518 L536,518 L536,807 L159,807 L159,518 Z" id="Rectangle" stroke="#979797" stroke-width="2" stroke-dasharray="10"></path>
-            <path d="M127,293 L677,293 L677,463 L128,463 L127,293 Z" id="Rectangle" stroke="#979797" stroke-width="2" stroke-dasharray="10"></path>
+            <path d="M127,300 L677,300 L677,470 L128,470 L127,300 Z" id="Rectangle" stroke="#979797" stroke-width="2" stroke-dasharray="10"></path>
         </g>
     </g>
 </svg>
