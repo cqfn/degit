@@ -170,7 +170,7 @@ is how it may be modified to be hosted inside a company, to support
 in-house user authentication and restrict access to certain repositories
 (this is just an example):
 
-<img src="/enterprise.svg" height="300px"/>
+<img src="/enterprise.svg" height="500px"/>
 
 Each node in the Kubernetes cluster is running a Dashboard, which is getting
 access information from [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)+Database,
