@@ -89,6 +89,12 @@
                     <tspan x="19.3261719" y="22">git</tspan>
                 </text>
             </g>
+            <g id="Group" transform="translate(608.000000, 193.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="64" height="42"></rect>
+                <text id="git" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="19.3261719" y="22">git</tspan>
+                </text>
+            </g>
             <text id="ssh" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
                 <tspan x="248.050781" y="387">ssh</tspan>
             </text>
@@ -99,7 +105,10 @@
                 <tspan x="226.15625" y="149">https</tspan>
             </text>
             <text id="ssh" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="636.050781" y="244">ssh</tspan>
+                <tspan x="615.050781" y="300">ssh</tspan>
+            </text>
+            <text id="cli" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="654.445312" y="176">cli</tspan>
             </text>
             <g id="Group-5" transform="translate(123.000000, 531.000000)">
                 <text id="Database-w/Users" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
