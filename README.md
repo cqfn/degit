@@ -117,7 +117,7 @@ private RSA key is lost.
 
 There are a few:
 
-<img src="/components.svg" height="300px"/>
+<img src="/components.svg" height="250px"/>
 
 _DeGit CLI_ is a command line manager, which is used in order to start
 DeGit server on the machine.
