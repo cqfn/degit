@@ -1,190 +1,260 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="679px" height="825px" viewBox="0 0 679 825" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Group 5</title>
+<svg width="742px" height="825px" viewBox="0 0 742 825" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-5" transform="translate(1.000000, 1.000000)">
-            <g id="Group" transform="translate(159.000000, 410.000000)">
+        <g id="Group-2" transform="translate(1.000000, 1.000000)">
+            <g id="Group" transform="translate(159.000000, 410.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="62" height="42"></rect>
-                <text id="AM" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="13" y="22">AM</tspan>
-                </text>
+                <g id="AM" transform="translate(13.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0" y="22">AM</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(0.000000, 463.000000)">
+            <g id="Group" transform="translate(0.000000, 463.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="84" height="48"></rect>
-                <text id="LDAP" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="10.6523438" y="22">LDAP</tspan>
-                </text>
+                <g id="LDAP" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.6523438" y="22">LDAP</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(344.000000, 536.000000)">
+            <g id="Group" transform="translate(344.000000, 536.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="147" height="54"></rect>
-                <text id="HAProxy(s)" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="12.1640625" y="22">HAProxy(s)</tspan>
-                </text>
+                <g id="HAProxy(s)" transform="translate(12.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.1640625" y="22">HAProxy(s)</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(291.000000, 750.000000)">
+            <g id="Group" transform="translate(291.000000, 750.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="129" height="42"></rect>
-                <text id="NFS" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="40.5" y="22">NFS</tspan>
-                </text>
+                <g id="NFS" transform="translate(40.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.5" y="22">NFS</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(175.000000, 652.500000)">
+            <g id="Group" transform="translate(175.000000, 652.500000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="90" height="48"></rect>
-                <text id="git+ssh" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="6.64453125" y="22">git+ssh</tspan>
-                </text>
+                <g id="git+ssh" transform="translate(6.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.64453125" y="22">git+ssh</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(431.000000, 652.500000)">
+            <g id="Group" transform="translate(431.000000, 652.500000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="90" height="48"></rect>
-                <text id="git+ssh" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="6.64453125" y="22">git+ssh</tspan>
-                </text>
+                <g id="git+ssh" transform="translate(6.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.64453125" y="22">git+ssh</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(287.000000, 652.500000)">
+            <g id="Group" transform="translate(287.000000, 652.500000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="90" height="48"></rect>
-                <text id="git+ssh" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="6.64453125" y="22">git+ssh</tspan>
-                </text>
+                <g id="git+ssh" transform="translate(6.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.64453125" y="22">git+ssh</tspan>
+                    </text>
+                </g>
             </g>
-            <path id="Line" d="M173.578869,451.834686 L174.290314,453.703869 L173.355722,454.059592 L97.44,482.954 L99.57434,488.562028 L84,487 L94.5942266,475.477745 L96.728,481.085 L172.644278,452.190408 L173.578869,451.834686 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M190.061058,451.712105 L191.412895,453.186058 L190.675919,453.861976 L114.993,523.273 L119.049098,527.695973 L104,532 L109.586237,517.378305 L113.641,521.799 L189.324081,452.388024 L190.061058,451.712105 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M272.808579,451.598801 L273.604889,452.20369 L366.456,522.735 L370.085888,517.957384 L377,532 L361.61744,529.10572 L365.246,524.327 L272.395111,453.79631 L271.598801,453.191421 L272.808579,451.598801 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M438.377222,451.745921 L440.269704,452.392847 L439.946241,453.339088 L417.474,519.075 L423.152165,521.016867 L412,532 L409.904792,516.488388 L415.582,518.429 L438.053759,452.692162 L438.377222,451.745921 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M625.460507,451.662864 L626.337136,453.460507 L625.438314,453.898822 L476.021,526.762 L478.651705,532.155352 L463,532 L472.515304,519.571847 L475.145,524.965 L624.561686,452.101178 L625.460507,451.662864 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M380.796548,229.600497 L382.399503,230.796548 L381.801477,231.598025 L293.173,350.377 L297.982695,353.965496 L284,361 L286.762014,345.593142 L291.57,349.181 L380.198523,230.401975 L380.796548,229.600497 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M432.677199,223.758468 L432.959366,224.717834 L469.008,347.286 L474.76523,345.593719 L472,361 L461.334113,349.544047 L467.09,347.851 L431.040634,225.282166 L430.758468,224.322801 L432.677199,223.758468 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M451.447214,230.658359 L451.894427,231.552786 L520.633,369.031 L526,366.347524 L526,382 L513.478019,372.608514 L518.844,369.925 L450.105573,232.447214 L449.658359,231.552786 L451.447214,230.658359 Z" fill="#979797" fill-rule="nonzero"></path>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="173.578869 451.834686 174.290314 453.703869 173.355722 454.059592 97.44 482.954 99.57434 488.562028 84 487 94.5942266 475.477745 96.728 481.085 172.644278 452.190408"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="190.061058 451.712105 191.412895 453.186058 190.675919 453.861976 114.993 523.273 119.049098 527.695973 104 532 109.586237 517.378305 113.641 521.799 189.324081 452.388024"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="272.808579 451.598801 273.604889 452.20369 366.456 522.735 370.085888 517.957384 377 532 361.61744 529.10572 365.246 524.327 272.395111 453.79631 271.598801 453.191421"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="438.377222 451.745921 440.269704 452.392847 439.946241 453.339088 417.474 519.075 423.152165 521.016867 412 532 409.904792 516.488388 415.582 518.429 438.053759 452.692162"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="625.460507 451.662864 626.337136 453.460507 625.438314 453.898822 476.021 526.762 478.651705 532.155352 463 532 472.515304 519.571847 475.145 524.965 624.561686 452.101178"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="380.796548 229.600497 382.399503 230.796548 381.801477 231.598025 293.173 350.377 297.982695 353.965496 284 361 286.762014 345.593142 291.57 349.181 380.198523 230.401975"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="432.677199 223.758468 432.959366 224.717834 469.008 347.286 474.76523 345.593719 472 361 461.334113 349.544047 467.09 347.851 431.040634 225.282166 430.758468 224.322801"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="451.447214 230.658359 451.894427 231.552786 520.633 369.031 526 366.347524 526 382 513.478019 372.608514 518.844 369.925 450.105573 232.447214 449.658359 231.552786"></polygon>
             <g id="Group-4" transform="translate(399.000000, 0.000000)">
                 <g id="Group-2" transform="translate(7.000000, 0.000000)" stroke="#979797" stroke-width="2">
                     <circle id="Oval" cx="30.125" cy="16.5" r="16.5"></circle>
                     <line x1="30.875" y1="33.2830189" x2="31.125" y2="63" id="Line-2" stroke-linecap="square"></line>
                     <line x1="61.2052752" y1="39.375" x2="0.904816514" y2="39.25" id="Line-2" stroke-linecap="square"></line>
                     <line x1="62.4107143" y1="85.928125" x2="30.9107143" y2="63.2875" id="Line-2" stroke-linecap="square"></line>
-                    <line x1="31.4174107" y1="85.928125" x2="0.901785714" y2="63.2875" id="Line-2" stroke-linecap="square" transform="translate(16.125000, 74.500000) scale(-1, 1) translate(-16.125000, -74.500000) "></line>
+                    <line x1="31.3482143" y1="85.928125" x2="0.8325893" y2="63.2875" id="Line-2" stroke-linecap="square" transform="translate(16.090402, 74.607812) scale(-1, 1) translate(-16.090402, -74.607812) "></line>
                 </g>
-                <text id="Enterprise-User(s)" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                    <tspan x="0.0390625" y="103">Enterprise</tspan>
-                    <tspan x="10.28125" y="120">User(s)</tspan>
-                </text>
+                <g id="Enterprise-User(s)" transform="translate(0.000000, 89.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                    <text id="Enterprise">
+                        <tspan x="0.0390625" y="14">Enterprise</tspan>
+                    </text>
+                    <text id="User(s)">
+                        <tspan x="10.28125" y="31">User(s)</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(234.000000, 410.000000)">
+            <g id="Group" transform="translate(234.000000, 410.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="64" height="42"></rect>
-                <text id="git" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="19.3261719" y="22">git</tspan>
-                </text>
+                <g id="git" transform="translate(19.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.3261719" y="22">git</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(337.000000, 410.000000)">
+            <g id="Group" transform="translate(337.000000, 410.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="62" height="42"></rect>
-                <text id="AM" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="13" y="22">AM</tspan>
-                </text>
+                <g id="AM" transform="translate(13.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0" y="22">AM</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(412.000000, 410.000000)">
+            <g id="Group" transform="translate(412.000000, 410.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="64" height="42"></rect>
-                <text id="git" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="19.3261719" y="22">git</tspan>
-                </text>
+                <g id="git" transform="translate(19.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.3261719" y="22">git</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(526.000000, 410.000000)">
+            <g id="Group" transform="translate(526.000000, 410.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="62" height="42"></rect>
-                <text id="AM" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="13" y="22">AM</tspan>
-                </text>
+                <g id="AM" transform="translate(13.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0" y="22">AM</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(601.000000, 410.000000)">
+            <g id="Group" transform="translate(601.000000, 410.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="64" height="42"></rect>
-                <text id="git" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="19.3261719" y="22">git</tspan>
+                <g id="git" transform="translate(19.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.3261719" y="22">git</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="ssh" transform="translate(284.000000, 484.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.050781" y="14">ssh</tspan>
                 </text>
             </g>
-            <text id="ssh" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="284.050781" y="498">ssh</tspan>
-            </text>
-            <text id="https" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="423.15625" y="161">https</tspan>
-            </text>
-            <text id="https" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="476.15625" y="273">https</tspan>
-            </text>
-            <text id="https" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="408.15625" y="281">https</tspan>
-            </text>
-            <text id="https" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="316.15625" y="266">https</tspan>
-            </text>
-            <text id="ssh" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="390.050781" y="501">ssh</tspan>
-            </text>
-            <text id="ssh" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="570.050781" y="496">ssh</tspan>
-            </text>
-            <text id="Database-w/Users" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="35.2539062" y="615">Database</tspan>
-                <tspan x="40.609375" y="632">w/Users</tspan>
-            </text>
-            <g id="Group" transform="translate(134.000000, 307.000000)">
+            <g id="https" transform="translate(423.000000, 147.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.15625" y="14">https</tspan>
+                </text>
+            </g>
+            <g id="https" transform="translate(476.000000, 259.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.15625" y="14">https</tspan>
+                </text>
+            </g>
+            <g id="https" transform="translate(408.000000, 267.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.15625" y="14">https</tspan>
+                </text>
+            </g>
+            <g id="https" transform="translate(316.000000, 252.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.15625" y="14">https</tspan>
+                </text>
+            </g>
+            <g id="ssh" transform="translate(390.000000, 487.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.050781" y="14">ssh</tspan>
+                </text>
+            </g>
+            <g id="ssh" transform="translate(678.000000, 224.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.050781" y="14">ssh</tspan>
+                </text>
+            </g>
+            <g id="ssh" transform="translate(570.000000, 482.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.050781" y="14">ssh</tspan>
+                </text>
+            </g>
+            <g id="Database-w/Users" transform="translate(35.000000, 601.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text id="Database">
+                    <tspan x="0.2539062" y="14">Database</tspan>
+                </text>
+                <text id="w/Users">
+                    <tspan x="5.609375" y="31">w/Users</tspan>
+                </text>
+            </g>
+            <g id="Group" transform="translate(134.000000, 307.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="48"></rect>
-                <text id="DeGit-CLI" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="16.8183594" y="22">DeGit CLI</tspan>
-                </text>
+                <g id="DeGit-CLI" transform="translate(16.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.8183594" y="22">DeGit CLI</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(159.000000, 361.000000)">
+            <g id="Group" transform="translate(159.000000, 361.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="42"></rect>
-                <text id="Dashboard" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="10.7949219" y="22">Dashboard</tspan>
-                </text>
+                <g id="Dashboard" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.7949219" y="22">Dashboard</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(312.000000, 307.000000)">
+            <g id="Group" transform="translate(312.000000, 307.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="48"></rect>
-                <text id="DeGit-CLI" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="16.8183594" y="22">DeGit CLI</tspan>
-                </text>
+                <g id="DeGit-CLI" transform="translate(16.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.8183594" y="22">DeGit CLI</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(337.000000, 361.000000)">
+            <g id="Group" transform="translate(337.000000, 361.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="42"></rect>
-                <text id="Dashboard" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="10.7949219" y="22">Dashboard</tspan>
-                </text>
+                <g id="Dashboard" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.7949219" y="22">Dashboard</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(501.000000, 307.000000)">
+            <g id="Group" transform="translate(501.000000, 307.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="48"></rect>
-                <text id="DeGit-CLI" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="16.8183594" y="22">DeGit CLI</tspan>
-                </text>
+                <g id="DeGit-CLI" transform="translate(16.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.8183594" y="22">DeGit CLI</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(526.000000, 361.000000)">
+            <g id="Group" transform="translate(526.000000, 361.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#E2E2E2" x="0" y="0" width="139" height="42"></rect>
-                <text id="Dashboard" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="10.7949219" y="22">Dashboard</tspan>
-                </text>
+                <g id="Dashboard" transform="translate(10.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.7949219" y="22">Dashboard</tspan>
+                    </text>
+                </g>
             </g>
-            <g id="Group" transform="translate(312.000000, 183.000000)">
+            <g id="Group" transform="translate(312.000000, 183.000000)" fill-rule="nonzero">
                 <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="160" height="48"></rect>
-                <text id="Nginx(s)" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#000000">
-                    <tspan x="35.328125" y="22">Nginx(s)</tspan>
+                <g id="Nginx(s)" transform="translate(35.000000, 0.000000)" fill="#000000" font-family="ArialMT, Arial" font-size="24" font-weight="normal">
+                    <text>
+                        <tspan x="0.328125" y="22">Nginx(s)</tspan>
+                    </text>
+                </g>
+            </g>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="428.552786 127.658359 430.341641 128.552786 429.894427 129.447214 409.155 170.925 414.521981 173.608514 402 183 402 167.347524 407.366 170.03"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="405.11034 589.090098 405.760121 589.850219 449.662 641.208 454.223913 637.309833 458 652.5 443.582215 646.406769 448.142 642.507 404.239879 591.149781 403.590098 590.38966"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="404.60402 589.142355 406.357645 590.10402 405.876812 590.980833 378.608 640.705 383.869343 643.590455 371 652.5 371.59397 636.858798 376.854 639.743 404.123188 590.019167"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="332.159678 699.59483 332.782424 700.377254 363.063 738.423 367.758528 734.68684 371 750 356.804589 743.405282 361.498 739.668 331.217576 701.622746 330.59483 700.840322"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="219.404253 699.717391 220.343431 700.060822 341.194 744.252 343.255523 738.617723 354 750 338.447493 751.766215 340.508 746.131 219.656569 701.939178 218.717391 701.595747"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="476.380571 699.637955 477.362045 701.380571 476.490737 701.871308 401.689 744.001 404.633468 749.228842 389 750 397.763155 737.030531 400.707 742.258 475.509263 700.128692"></polygon>
+            <polygon id="Line" fill="#979797" fill-rule="nonzero" points="405.581766 589.210989 406.289011 591.081766 405.353622 591.435388 254.449 648.484 256.570792 654.097004 241 652.5 251.620079 641.001569 253.741 646.613 404.646378 589.564612"></polygon>
+            <g id="Group-3" transform="translate(70.000000, 565.500000) scale(-1, 1) rotate(-180.000000) translate(-70.000000, -565.500000) translate(25.000000, 532.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#979797" stroke-width="2">
+                <ellipse id="Oval" transform="translate(44.500000, 13.500000) scale(-1, 1) rotate(-180.000000) translate(-44.500000, -13.500000) " cx="44.5" cy="13.5" rx="44.5" ry="13.5"></ellipse>
+                <ellipse id="Oval" transform="translate(44.500000, 26.500000) scale(-1, 1) rotate(-180.000000) translate(-44.500000, -26.500000) " cx="44.5" cy="26.5" rx="44.5" ry="13.5"></ellipse>
+                <ellipse id="Oval" transform="translate(45.500000, 40.500000) scale(-1, 1) rotate(-180.000000) translate(-45.500000, -40.500000) " cx="45.5" cy="40.5" rx="44.5" ry="13.5"></ellipse>
+                <ellipse id="Oval" transform="translate(45.500000, 53.500000) scale(-1, 1) rotate(-180.000000) translate(-45.500000, -53.500000) " cx="45.5" cy="53.5" rx="44.5" ry="13.5"></ellipse>
+            </g>
+            <g id="Git-cluster" transform="translate(463.000000, 807.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.492188" y="14">Git cluster</tspan>
                 </text>
             </g>
-            <path id="Line" d="M428.552786,127.658359 L430.341641,128.552786 L429.894427,129.447214 L409.155,170.925 L414.521981,173.608514 L402,183 L402,167.347524 L407.366,170.03 L428.552786,127.658359 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M405.11034,589.090098 L405.760121,589.850219 L449.662,641.208 L454.223913,637.309833 L458,652.5 L443.582215,646.406769 L448.142,642.507 L404.239879,591.149781 L403.590098,590.38966 L405.11034,589.090098 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M404.60402,589.142355 L406.357645,590.10402 L405.876812,590.980833 L378.608,640.705 L383.869343,643.590455 L371,652.5 L371.59397,636.858798 L376.854,639.743 L404.123188,590.019167 L404.60402,589.142355 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M332.159678,699.59483 L332.782424,700.377254 L363.063,738.423 L367.758528,734.68684 L371,750 L356.804589,743.405282 L361.498,739.668 L331.217576,701.622746 L330.59483,700.840322 L332.159678,699.59483 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M219.404253,699.717391 L220.343431,700.060822 L341.194,744.252 L343.255523,738.617723 L354,750 L338.447493,751.766215 L340.508,746.131 L219.656569,701.939178 L218.717391,701.595747 L219.404253,699.717391 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M476.380571,699.637955 L477.362045,701.380571 L476.490737,701.871308 L401.689,744.001 L404.633468,749.228842 L389,750 L397.763155,737.030531 L400.707,742.258 L475.509263,700.128692 L476.380571,699.637955 Z" fill="#979797" fill-rule="nonzero"></path>
-            <path id="Line" d="M405.581766,589.210989 L406.289011,591.081766 L405.353622,591.435388 L254.449,648.484 L256.570792,654.097004 L241,652.5 L251.620079,641.001569 L253.741,646.613 L404.646378,589.564612 L405.581766,589.210989 Z" fill="#979797" fill-rule="nonzero"></path>
-            <g id="Group-3" transform="translate(70.000000, 565.500000) scale(1, -1) translate(-70.000000, -565.500000) translate(25.000000, 532.000000)" fill="#FFFFFF" stroke="#979797" stroke-width="2">
-                <ellipse id="Oval" transform="translate(44.500000, 13.500000) scale(1, -1) translate(-44.500000, -13.500000) " cx="44.5" cy="13.5" rx="44.5" ry="13.5"></ellipse>
-                <ellipse id="Oval" transform="translate(44.500000, 26.500000) scale(1, -1) translate(-44.500000, -26.500000) " cx="44.5" cy="26.5" rx="44.5" ry="13.5"></ellipse>
-                <ellipse id="Oval" transform="translate(45.500000, 40.500000) scale(1, -1) translate(-45.500000, -40.500000) " cx="45.5" cy="40.5" rx="44.5" ry="13.5"></ellipse>
-                <ellipse id="Oval" transform="translate(45.500000, 53.500000) scale(1, -1) translate(-45.500000, -53.500000) " cx="45.5" cy="53.5" rx="44.5" ry="13.5"></ellipse>
+            <g id="Kubernetes-cluster" transform="translate(543.000000, 279.000000)" fill="#000000" fill-rule="nonzero" font-family="ArialMT, Arial" font-size="16" font-weight="normal">
+                <text>
+                    <tspan x="0.296875" y="14">Kubernetes cluster</tspan>
+                </text>
             </g>
-            <text id="Git-cluster" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="463.492188" y="821">Git cluster</tspan>
-            </text>
-            <text id="Kubernetes-cluster" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
-                <tspan x="543.296875" y="293">Kubernetes cluster</tspan>
-            </text>
             <path d="M159,518 L536,518 L536,807 L159,807 L159,518 Z" id="Rectangle" stroke="#979797" stroke-width="2" stroke-dasharray="10"></path>
             <path d="M159,518 L536,518 L536,807 L159,807 L159,518 Z" id="Rectangle" stroke="#979797" stroke-width="2" stroke-dasharray="10"></path>
             <path d="M127,300 L677,300 L677,470 L128,470 L127,300 Z" id="Rectangle" stroke="#979797" stroke-width="2" stroke-dasharray="10"></path>
+            <path id="Path" d="M494.273626,113.538164 C588.441472,140.327292 645.188708,163.825384 682.512546,193.346123 C722.386762,224.884045 740.469489,264.304614 740.845333,320.493311 C740.851641,321.436441 740.857714,322.31996 740.867921,323.788334 C741.14452,363.578996 740.695241,379.415483 737.852041,398.501701 C734.168555,423.228702 726.563168,443.393835 713.236812,461.462998 C683.510086,501.769368 623.694886,532.649158 517.07957,560.015341 L514.826,560.59 L516.274291,566.419946 L501,563 L512.900531,552.832535 L514.344,558.648 L516.575422,558.079914 C622.788224,530.817803 682.234084,500.129951 711.627221,460.275894 C724.74563,442.488685 732.235825,422.628976 735.87387,398.20702 C738.696244,379.260604 739.143814,363.484348 738.867969,323.802236 C738.857761,322.333699 738.851688,321.450038 738.845377,320.506689 C738.47348,264.90798 720.655594,226.064767 681.271845,194.914772 C644.579734,165.893689 588.787795,142.652895 496.533148,116.262518 L493.726374,115.461836 L494.273626,113.538164 Z" fill="#979797" fill-rule="nonzero"></path>
         </g>
     </g>
 </svg>
