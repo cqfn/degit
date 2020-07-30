@@ -117,7 +117,7 @@ private RSA key is lost.
 
 There are a few:
 
-<img src="/components.svg" height="400px"/>
+<img src="/components.svg" height="300px"/>
 
 _DeGit CLI_ is a command line manager, which is used in order to start
 DeGit server on the machine.
@@ -167,10 +167,18 @@ To be continued...
 
 Out-of-the box version of DeGit doesn't support private repositories. Here
 is how it may be modified to be hosted inside a company, to support
-in-house user authentication and restrict access to certain repositories:
+in-house user authentication and restrict access to certain repositories
+(this is just an example):
 
-<img src="/diagram.svg" height="400px"/>
+<img src="/components.svg" height="300px"/>
 
+Each node in the Kubernetes cluster is running a Dashboard, which is getting
+access information from [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)+Database,
+through the AM (authentication module).
+A set of [Nginx](https://www.nginx.com/) servers may act as a load balancer.
+[HAProxy](https://www.haproxy.com/) may work as a load balancer for SSH traffic.
+[NFS](https://en.wikipedia.org/wiki/Network_File_System) is used for data storage
+(for example, [AWS EFS](https://aws.amazon.com/efs/)).
 
 ## How to Contribute?
 
