@@ -78,6 +78,24 @@ The following principles are behind the architecture of DeGit:
   * Conflicts are resolved through proof-of-availability (PoA) consensus
   * Neighbours-discovery protocol is similar to the one used in [Zold](https://blog.zold.io/2018/12/28/nodes-discovery-protocol.html)
 
+### Components
+
+There are a few:
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTzET3GD39uq7S6sTMqPHSUPYGGzkdxYk19ZoFAwi5d5GlD-W_sb6ozRxsALoVKABXLQi4R-dYhcXE-/pub?w=960&amp;h=720">
+
+_Dashboard_ is a web server with a GitHub-like
+interface to let user manage issues, pull requests, milestones and so on.
+_git_ is a command line [git](https://git-scm.com/) client.
+
+<!-- _git+ssh_ is an [sshd](https://www.ssh.com/ssh/sshd/) server configured to dispatch requests to git.
+_hooks_ is a collection of post and pre commit [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
+ -->
+
+The user has two interfaces to interact with the system:
+1) through HTTP to the Dashboard,
+and 2) through the command-line interface to git.
+
 ### Data Flow Explained
 
 "Availability" is a non-negative integer assigned by a node to each of its neighbours.
@@ -112,26 +130,6 @@ commits and verifies permissions of each user. If any rule from
 It is recommended to have at least two users with write access to the `master`
 branch, in order to avoid losing access to the repo when
 private RSA key is lost.
-
-### Components
-
-There are a few:
-
-<img src="/components.svg" height="250px"/>
-
-_DeGit CLI_ is a command line manager, which is used in order to start
-DeGit server on the machine.
-_Dashboard_ is a web server with a GitHub-like
-interface to let user manage issues, pull requests, milestones and so on.
-_git_ is a command line [git](https://git-scm.com/) client.
-_git+ssh_ is an [sshd](https://www.ssh.com/ssh/sshd/) server configured to dispatch requests to git.
-_hooks_ is a collection of post and pre commit [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
-
-DeGit CLI, Dashboard, and Hooks are the components provided by DeGit project.
-
-The user has three interfaces to interact with the system. First, to start
-DeGit through the command-line. Second, through HTTP to the Dashboard.
-Third, through the command-line interface to git.
 
 ### Incentives
 
