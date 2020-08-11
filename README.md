@@ -82,7 +82,7 @@ The following principles are behind the architecture of DeGit:
 
 There are a few:
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vTzET3GD39uq7S6sTMqPHSUPYGGzkdxYk19ZoFAwi5d5GlD-W_sb6ozRxsALoVKABXLQi4R-dYhcXE-/pub?w=960&amp;h=720">
+<img height="400" src="https://docs.google.com/drawings/d/e/2PACX-1vTzET3GD39uq7S6sTMqPHSUPYGGzkdxYk19ZoFAwi5d5GlD-W_sb6ozRxsALoVKABXLQi4R-dYhcXE-/pub?w=960&amp;h=720">
 
 _Dashboard_ is a web server with a GitHub-like
 interface to let user manage issues, pull requests, milestones and so on.
