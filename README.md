@@ -84,17 +84,20 @@ There are a few:
 
 <img height="400" src="https://docs.google.com/drawings/d/e/2PACX-1vTzET3GD39uq7S6sTMqPHSUPYGGzkdxYk19ZoFAwi5d5GlD-W_sb6ozRxsALoVKABXLQi4R-dYhcXE-/pub?w=960&amp;h=720">
 
-_Dashboard_ is a web server with a GitHub-like
-interface to let user manage issues, pull requests, milestones and so on.
-_git_ is a command line [git](https://git-scm.com/) client.
+The **Dashboard** is a web server with a GitHub-like interface
+to let user manage issues, pull requests, milestones and so on.
 
-<!-- _git+ssh_ is an [sshd](https://www.ssh.com/ssh/sshd/) server configured to dispatch requests to git.
-_hooks_ is a collection of post and pre commit [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
- -->
+The **Locator** is the dispatcher of requests through the network
+of DeGit nodes. When the user is trying to access the server that
+doesn't have the repository the user is looking for, the Locator
+make a tunnel to another server and sends the requests there.
 
-The user has two interfaces to interact with the system:
-1) through HTTP to the Dashboard,
-and 2) through the command-line interface to git.
+The **Authenticator** is responsible for permissions validating
+and may rely on some external services, like LDAP (in case of
+enterprise deployment).
+
+The **Propagator** makes sure that changes pushed to the server
+are being sent to other servers right after they are accepted.
 
 ### Data Flow Explained
 
