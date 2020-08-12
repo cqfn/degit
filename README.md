@@ -173,13 +173,11 @@ in-house user authentication and restrict access to certain repositories
 
 <img height="400" src="https://docs.google.com/drawings/d/e/2PACX-1vQRE40i_rFpt4nA2Ds9WHw2VoLfUdziopYeIvKg8RtMPeZCbtXNnYnZ0-WmyNcSvIx2snmsp1sgOq6z/pub?w=912&amp;h=766">
 
-Each node in the Kubernetes cluster is running a Dashboard, which is getting
-access information from [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)+Database,
+Each Web Node is running a Dashboard, which is getting
+access information from [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 through the AM (authentication module).
 A set of [Nginx](https://www.nginx.com/) servers may act as a load balancer.
 [HAProxy](https://www.haproxy.com/) may work as a load balancer for SSH traffic.
-[NFS](https://en.wikipedia.org/wiki/Network_File_System) is used for data storage
-(for example, [AWS EFS](https://aws.amazon.com/efs/)).
 
 ## How to Contribute?
 
