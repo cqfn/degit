@@ -90,7 +90,7 @@ to let user manage issues, pull requests, milestones and so on.
 The **Locator** is the dispatcher of requests through the network
 of DeGit nodes. When the user is trying to access the server that
 doesn't have the repository the user is looking for, the Locator
-make a tunnel to another server and sends the requests there.
+makes a tunnel to another server and redirects the request there.
 
 The **Authenticator** is responsible for permissions validating
 and may rely on some external services, like LDAP (in case of
@@ -171,7 +171,7 @@ is how it may be modified to be hosted inside a company, to support
 in-house user authentication and restrict access to certain repositories
 (this is just an example):
 
-<img src="/enterprise.svg" height="500px"/>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQRE40i_rFpt4nA2Ds9WHw2VoLfUdziopYeIvKg8RtMPeZCbtXNnYnZ0-WmyNcSvIx2snmsp1sgOq6z/pub?w=912&amp;h=766">
 
 Each node in the Kubernetes cluster is running a Dashboard, which is getting
 access information from [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)+Database,
