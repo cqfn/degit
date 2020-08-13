@@ -171,7 +171,7 @@ is how it may be modified to be hosted inside a company, to support
 in-house user authentication and restrict access to certain repositories
 (this is just an example):
 
-<img height="400" src="https://docs.google.com/drawings/d/e/2PACX-1vQRE40i_rFpt4nA2Ds9WHw2VoLfUdziopYeIvKg8RtMPeZCbtXNnYnZ0-WmyNcSvIx2snmsp1sgOq6z/pub?w=912&amp;h=766">
+<img height="500" src="https://docs.google.com/drawings/d/e/2PACX-1vQRE40i_rFpt4nA2Ds9WHw2VoLfUdziopYeIvKg8RtMPeZCbtXNnYnZ0-WmyNcSvIx2snmsp1sgOq6z/pub?w=912&amp;h=766">
 
 Each Web Node is running a Dashboard, which is getting
 access information from [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
