@@ -175,7 +175,14 @@ in-house user authentication and restrict access to certain repositories
 
 Each Web Node is running a Dashboard, which is getting
 access information from [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
-through the AM (authentication module).
+through the **AM** (Authentication Module). The AM has all the information
+about all enterprise users and enables an additional layer of access
+granting on top of RSA keys.
+
+The **DB** (Database) contains the entire map of all servers running
+Git in the enterprise and makes it easier for each node to detect the
+right location of a repository and redirect requests.
+
 A set of [Nginx](https://www.nginx.com/) servers may act as a load balancer.
 A set of [HAProxy](https://www.haproxy.com/) servers may work as a load balancer for SSH traffic.
 
