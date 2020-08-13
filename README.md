@@ -181,7 +181,10 @@ granting on top of RSA keys.
 
 The **DB** (Database) contains the entire map of all servers running
 Git in the enterprise and makes it easier for each node to detect the
-right location of a repository and redirect requests.
+right location of a repository and redirect requests. It also, being
+a place of centralization, enables synchronization between nodes via locking:
+only one Git node may work with a branch in a repository, while all others
+are waiting for the lock to be released.
 
 A set of [Nginx](https://www.nginx.com/) servers may act as a load balancer.
 A set of [HAProxy](https://www.haproxy.com/) servers may work as a load balancer for SSH traffic.
