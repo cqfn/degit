@@ -177,7 +177,7 @@ Each Web Node is running a Dashboard, which is getting
 access information from [LDAP](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
 through the AM (authentication module).
 A set of [Nginx](https://www.nginx.com/) servers may act as a load balancer.
-[HAProxy](https://www.haproxy.com/) may work as a load balancer for SSH traffic.
+A set of [HAProxy](https://www.haproxy.com/) servers may work as a load balancer for SSH traffic.
 
 ## How to Contribute?
 
