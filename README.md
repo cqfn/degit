@@ -78,9 +78,9 @@ The following principles are behind the architecture of DeGit:
   * Conflicts are resolved through proof-of-availability (PoA) consensus
   * Neighbours-discovery protocol is similar to the one used in [Zold](https://blog.zold.io/2018/12/28/nodes-discovery-protocol.html)
 
-### Components
+### Architecture
 
-There are a few:
+There are a few components in the system:
 
 <img height="400" src="https://docs.google.com/drawings/d/e/2PACX-1vTzET3GD39uq7S6sTMqPHSUPYGGzkdxYk19ZoFAwi5d5GlD-W_sb6ozRxsALoVKABXLQi4R-dYhcXE-/pub?w=960&amp;h=720">
 
