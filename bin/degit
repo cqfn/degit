@@ -48,9 +48,9 @@ Options are:"
   log = opts[:verbose] ? Loog::VERBOSE : Loog::REGULAR
   case opts.arguments[0]
   when 'run'
-    puts 'Not implemented yet'
+    log.info('Not implemented yet')
   when 'node'
-    puts 'Not yet'
+    log.info('Not yet')
   else
     raise "Command #{opts.arguments[0]} is not supported"
   end
