@@ -1,0 +1,64 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Copyright (c) 2020 Yegor Bugayenko
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the 'Software'), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+STDOUT.sync = true
+
+require 'slop'
+require 'backtrace'
+require_relative '../lib/degit/version'
+
+begin
+  begin
+    opts = Slop.parse(ARGV, strict: true, help: true) do |o|
+      o.banner = "Usage (#{Degit::VERSION}): degit [options] command [args]
+Commands are:
+    run:    Run the dashboard
+    node:   Run the node
+Options are:"
+      o.bool '--help', 'Read this: https://github.com/yegor256/degit' do
+        puts o
+        exit
+      end
+      o.bool '--verbose', 'Print all possible debug messages'
+    end
+  rescue Slop::Error => ex
+    raise ex.message
+  end
+  raise 'Try --help' if opts.arguments.empty?
+  log = opts[:verbose] ? Loog::VERBOSE : Loog::REGULAR
+  case opts.arguments[0]
+  when 'run'
+    puts 'Not implemented yet'
+  when 'node'
+    puts 'Not yet'
+  else
+    raise "Command #{opts.arguments[0]} is not supported"
+  end
+rescue StandardError => ex
+  if opts[:verbose]
+    puts Backtrace.new(ex).to_s
+  else
+    puts "ERROR: #{ex.message}"
+  end
+  exit(255)
+end

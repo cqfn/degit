@@ -1,0 +1,21 @@
+assets:
+  rubygems.yml: yegor256/home#assets/rubygems.yml
+install: |
+  pdd -f /dev/null
+  sudo bundle install --no-color "--gemfile=$(pwd)/Gemfile"
+release:
+  script: |-
+    bundle exec rake clean test rubocop copyright
+    sed -i "s/1\.0\.snapshot/${tag}/g" lib/degit/version.rb
+    git add lib/degit/version.rb
+    git commit -m "version set to ${tag}"
+    gem build degit.gemspec
+    chmod 0600 ../rubygems.yml
+    gem push *.gem --config-file ../rubygems.yml
+merge:
+  script: |-
+    bundle exec rake clean test rubocop copyright
+deploy:
+  script: |-
+    echo "There is nothing to deploy"
+    exit -1
