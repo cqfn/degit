@@ -1,5 +1,19 @@
 <img src="/logo.svg" width="92px"/>
 
+[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
+[![Managed by Zerocracy](https://www.0crat.com/badge/C3RFVLU72.svg)](https://www.0crat.com/p/C3RFVLU72)
+[![DevOps By Rultor.com](http://www.rultor.com/b/cqfn/degit)](http://www.rultor.com/p/cqfn/degit)
+[![We recommend RubyMine](https://www.elegantobjects.org/rubymine.svg)](https://www.jetbrains.com/ruby/)
+
+[![Build Status](https://travis-ci.org/cqfn/degit.svg)](https://travis-ci.org/cqfn/degit)
+[![PDD status](http://www.0pdd.com/svg?name=cqfn/degit)](http://www.0pdd.com/p?name=cqfn/degit)
+[![Gem Version](https://badge.fury.io/rb/degit.svg)](http://badge.fury.io/rb/degit)
+[![Maintainability](https://api.codeclimate.com/v1/badges/74c909f06d4afa0d8001/maintainability)](https://codeclimate.com/github/cqfn/degit/maintainability)
+
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/yegor256/takes/degit/master/LICENSE.txt)
+[![Test Coverage](https://img.shields.io/codecov/c/github/cqfn/degit.svg)](https://codecov.io/github/cqfn/degit?branch=master)
+[![Hits-of-Code](https://hitsofcode.com/github/cqfn/degit)](https://hitsofcode.com/view/github/cqfn/degit)
+
 DeGit is a decentralized [Git](https://git-scm.com/) projects hosting platform.
 You can join by starting a node and pointing your browser
 at `127.0.0.1`. Then, just work with it as if it was GitHub.
@@ -64,6 +78,27 @@ with the following features:
   * Moderated by the board of deputies.
 
 DeGit doesn't support private repositories, only public ones.
+
+## How to Start?
+
+If you want to use DeGit in order to host your repositories,
+just like you use GitHub, read the instructions above: they
+are very simple.
+
+If you want to run a node and contribute to DeGit network with your
+storage and computational resources, here is how:
+
+First, you install Ruby 2.6+ and Docker
+(we recommend you to use Ubuntu 18.04).
+
+Then, you make a directory, where Git repositories will be maintained. Let's
+say it's `/var/degit`.
+
+Next, you run this:
+
+```bash
+$ docker run --rm -
+```
 
 ## How It Works?
 
