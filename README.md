@@ -88,13 +88,16 @@ are very simple.
 If you want to run a node and contribute to DeGit network with your
 storage and computational resources, here is how:
 
-First, you install Ruby 2.6+ and Docker
-(we recommend you to use Ubuntu 18.04).
+First, you install
+[Ruby 2.6+](https://www.ruby-lang.org/en/) and
+[Docker](https://docs.docker.com/get-docker/)
+(we recommend you to use [Ubuntu 18.04](https://releases.ubuntu.com/18.04/)).
 
-Then, you make a directory, where Git repositories will be maintained. Let's
-say it's `/var/degit`.
+Then, you make a directory, where Git repositories will be maintained. By default,
+it's `/var/degit`.
 
-Next, you run this (make sure you don't have SSHD running on the server):
+Next, you run this (make sure you don't have SSHD running on the server, or you will
+have a conflict on the port 22 already open):
 
 ```bash
 $ docker run --rm --port 22:22 --volume /var/degit:/home/git cqfn/degit
@@ -236,6 +239,16 @@ are waiting for the lock to be released.
 A set of [Nginx](https://www.nginx.com/) servers may act as a load balancer.
 A set of [HAProxy](https://www.haproxy.com/) servers may work as a load balancer for SSH traffic.
 
-## How to Contribute?
+## How to contribute
 
-Just give us a star and wait. We'll update this page soon.
+Read [these guidelines](https://www.yegor256.com/2014/04/15/github-guidelines.html).
+Make sure your build is green before you contribute
+your pull request. You will need to have [Ruby](https://www.ruby-lang.org/en/) 2.6+ and
+[Bundler](https://bundler.io/) installed. Then:
+
+```
+$ bundle update
+$ bundle exec rake
+```
+
+If it's clean and you don't see any error messages, submit your pull request.
