@@ -84,7 +84,6 @@ DeGit doesn't support private repositories, only public ones.
 If you want to use DeGit in order to host your repositories,
 just like you use GitHub, read the instructions above: they
 are very simple.
-
 If you want to run a node and contribute to DeGit network with your
 storage and computational resources, here is how:
 

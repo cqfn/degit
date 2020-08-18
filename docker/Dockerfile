@@ -32,8 +32,8 @@ RUN apt-get update -y
 RUN apt-get install -y openssh-server git
 RUN mkdir -p /var/run/sshd
 
-RUN mkdir -p /usr/local/bin/degit \
-  && mv /usr/bin/git /usr/local/bin/degit/git \
-  && for i in git-receive-pack git-upload-archive git-upload-pack; do ln -s /usr/local/bin/degit/git "/usr/local/bin/degit/${i}"; done
+RUN mkdir -p /usr/local/bin/degit
+RUN mv /usr/bin/git /usr/local/bin/degit/git
+RUN for i in git-receive-pack git-upload-archive git-upload-pack; do ln -s /usr/local/bin/degit/git "/usr/local/bin/degit/${i}"; done
 
 ENTRYPOINT ["/usr/sbin/sshd", "-D", "-o", "ListenAddress=0.0.0.0"]
