@@ -97,7 +97,7 @@ say it's `/var/degit`.
 Next, you run this (make sure you don't have SSHD running on the server):
 
 ```bash
-$ docker run --rm --port 22:22 --volume /var/degit:/home/degit cqfn/degit
+$ docker run --rm --port 22:22 --volume /var/degit:/home/git cqfn/degit
 ```
 
 The container will start and you will have an ability to manage it via

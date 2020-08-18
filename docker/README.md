@@ -3,5 +3,5 @@
 Run it like this:
 
 ```bash
-$ docker --rm --port=22:22 cqfn/degit
+$ docker --rm -p 22:22 -v /var/degit:/home/git cqfn/degit
 ```
