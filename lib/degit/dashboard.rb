@@ -29,10 +29,10 @@ require 'loog'
 class Degit::Dashboard
   # Current version of the library.
   def initialize(log: Loog::NULL)
-  	@log = log
+    @log = log
   end
 
   def go
-  	@log.info('To be continued...')
+    @log.info('To be continued...')
   end
 end

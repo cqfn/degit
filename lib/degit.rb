@@ -27,5 +27,5 @@ require_relative 'degit/version'
 # Author:: Yegor Bugayenko (yegor256@gmail.com)
 # Copyright:: Copyright (c) 2020 Yegor Bugayenko
 # License:: MIT
-class Degit
+module Degit
 end
