@@ -26,6 +26,7 @@ STDOUT.sync = true
 require 'slop'
 require 'backtrace'
 require_relative '../lib/degit/version'
+require_relative '../lib/degit/deploy'
 
 begin
   begin
@@ -33,7 +34,7 @@ begin
       o.banner = "Usage (#{Degit::VERSION}): degit [options] command [args]
 Commands are:
     run:    Run the dashboard
-    node:   Run the node
+    deploy: Make sure the server is ready to be part of DeGit network
 Options are:"
       o.bool '--help', 'Read this: https://github.com/yegor256/degit' do
         puts o
@@ -48,9 +49,9 @@ Options are:"
   log = opts[:verbose] ? Loog::VERBOSE : Loog::REGULAR
   case opts.arguments[0]
   when 'run'
-    log.info('Not implemented yet')
-  when 'node'
-    log.info('Not yet')
+    Degit::Dashboard.new(log: log).go
+  when 'deploy'
+    Degit::Deploy.new(log: log).go
   else
     raise "Command #{opts.arguments[0]} is not supported"
   end

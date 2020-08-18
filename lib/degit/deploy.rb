@@ -20,11 +20,19 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Degit main class.
+require 'loog'
+
+# Deploy.
 # Author:: Yegor Bugayenko (yegor256@gmail.com)
 # Copyright:: Copyright (c) 2020 Yegor Bugayenko
 # License:: MIT
-module Degit
+class Degit::Deploy
   # Current version of the library.
-  VERSION = '0.0.0'
+  def initialize(log: Loog::NULL)
+  	@log = log
+  end
+
+  def go
+  	@log.info('To be continued...')
+  end
 end
