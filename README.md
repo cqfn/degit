@@ -94,11 +94,23 @@ First, you install Ruby 2.6+ and Docker
 Then, you make a directory, where Git repositories will be maintained. Let's
 say it's `/var/degit`.
 
-Next, you run this:
+Next, you run this (make sure you don't have SSHD running on the server):
 
 ```bash
-$ docker run --rm -
+$ docker run --rm --port 22:22 --volume /var/degit:/home/degit cqfn/degit
 ```
+
+The container will start and you will have an ability to manage it via
+command line `degit` tool. For example, to limit the amount of repositories
+it hosts to 100, you just run:
+
+```bash
+$ degit config max.repositories 100
+```
+
+The command line `degit` tool just makes changes to the files located in
+`/var/degit`, which are respected by the scripts inside the Docker container
+running.
 
 ## How It Works?
 
