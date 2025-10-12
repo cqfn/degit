@@ -1,11 +1,9 @@
 <img src="/logo.svg" width="92px"/>
 
 [![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
-[![Managed by Zerocracy](https://www.0crat.com/badge/C3RFVLU72.svg)](https://www.0crat.com/p/C3RFVLU72)
 [![DevOps By Rultor.com](http://www.rultor.com/b/cqfn/degit)](http://www.rultor.com/p/cqfn/degit)
 [![We recommend RubyMine](https://www.elegantobjects.org/rubymine.svg)](https://www.jetbrains.com/ruby/)
 
-[![Build Status](https://travis-ci.org/cqfn/degit.svg)](https://travis-ci.org/cqfn/degit)
 [![PDD status](http://www.0pdd.com/svg?name=cqfn/degit)](http://www.0pdd.com/p?name=cqfn/degit)
 [![Gem Version](https://badge.fury.io/rb/degit.svg)](http://badge.fury.io/rb/degit)
 [![Maintainability](https://api.codeclimate.com/v1/badges/74c909f06d4afa0d8001/maintainability)](https://codeclimate.com/github/cqfn/degit/maintainability)
